@@ -15,7 +15,6 @@ import java.io.File;
  */
 public class AutoBuilder {
 
-
     public static void main(String[] args) throws Exception {
         File file = FileUtils.getFile(AutoProperties.FILE_PATH_INPUT);
         if (file.exists()) {
