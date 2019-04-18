@@ -19,7 +19,7 @@ public class AutoBuilder {
         File file = FileUtils.getFile(AutoProperties.FILE_PATH_INPUT);
         if (file.exists()) {
             Api api = HtmlResolve.parse(FileUtils.readFileToString(file, "utf-8"));
-            String json = JSON.toJSONString(api.getList(), SerializerFeature.PrettyFormat);
+            String json = JSON.toJSONString(api.getList(), SerializerFeature.PrettyFormat, SerializerFeature.WriteNullStringAsEmpty);
             System.out.println(json);
             FileUtils.write(new File(AutoProperties.FILE_PATH_OUTPUT), json, "utf-8");
         }

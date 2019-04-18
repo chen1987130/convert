@@ -12,4 +12,13 @@ public class AutoProperties {
 
     public static final String FILE_PATH_OUTPUT = "D:\\网销管理平台-投保前端.json";
 
+    public static final String SCHEMA = "http://json-schema.org/draft-04/schema#";
+
+    public static final class FieldType {
+        public static final String OBJECT = "object";
+        public static final String ARRAY = "array";
+        public static final String STRING = "string";
+        public static final String BOOLEAN = "boolean";
+        public static final String NUMBER = "number";
+    }
 }
