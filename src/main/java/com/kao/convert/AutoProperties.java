@@ -8,9 +8,9 @@ package com.kao.convert;
  */
 public class AutoProperties {
 
-    public static final String FILE_PATH_INPUT = "D:\\网销管理平台-投保前端.html";
+    public static final String FILE_PATH_INPUT = "D:\\xx.html";
 
-    public static final String FILE_PATH_OUTPUT = "D:\\网销管理平台-投保前端.json";
+    public static final String FILE_PATH_OUTPUT = "D:\\xx.json";
 
     public static final String SCHEMA = "http://json-schema.org/draft-04/schema#";
 
